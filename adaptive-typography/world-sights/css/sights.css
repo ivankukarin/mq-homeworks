@@ -2,11 +2,11 @@
 	
 	.container {
 		display: flex;
-		
-	}
-
-	div.card {
-		width: 50%;
 		flex-wrap: wrap;
 	}
+	
+
+	.card {
+		width: 50%;
+	}	
 }
