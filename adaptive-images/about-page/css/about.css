@@ -1,0 +1,24 @@
+.page {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media (min-width: 961px) {
+	.aside {
+		flex-basis: 320px;
+		margin-right: 40px;
+		order: 0;
+	}
+	
+	.content {
+		order: 1;
+		flex-basis: 640px;
+		flex-grow: 1;
+	}
+}
+
+@media (max-width: 960px) {
+	.aside__menu {
+		display: none;
+	}
+}
