@@ -24,7 +24,7 @@
   }
 
   .card:nth-child(5n-2), .card:nth-child(5n-1), .card:nth-child(5n) {
-    width: 33%;
+    width: 33.3333%;
   }
 }
 
@@ -35,14 +35,11 @@
     width: 25%;
   }
 
-  .card:nth-child(6n-1), .card:nth-child(6n) {
+  .card:nth-child(-6n + 11), .card:nth-child(-6n + 12) {
     width: 50%;
   }
 
-  .card:nth-child(18), .card:nth-child(17) {
-    width: 25%;
-  }
-}
+ }
 
 
 @media (min-width: 1281px) {
