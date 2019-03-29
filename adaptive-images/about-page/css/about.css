@@ -1,13 +1,14 @@
-.page {
-	display: flex;
-	flex-wrap: wrap;
-}
+
 
 @media (min-width: 961px) {
+	.page {
+		display: flex;
+	}
+
 	.aside {
 		flex-basis: 320px;
 		margin-right: 40px;
-		order: 0;
+		flex-shrink: 0;
 	}
 	
 	.content {
