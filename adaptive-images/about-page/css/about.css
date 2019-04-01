@@ -1,4 +1,9 @@
 
+@media (max-width: 960px) {
+	.aside__menu {
+		display: none;
+	}
+}
 
 @media (min-width: 961px) {
 	.page {
@@ -13,13 +18,6 @@
 	
 	.content {
 		order: 1;
-		flex-basis: 640px;
-		flex-grow: 1;
 	}
 }
 
-@media (max-width: 960px) {
-	.aside__menu {
-		display: none;
-	}
-}
