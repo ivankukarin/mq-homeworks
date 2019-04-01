@@ -48,7 +48,7 @@
   }
 
   .card:nth-child(8n-2), .card:nth-child(8n-1), .card:nth-child(8n) {
-    width: 33%;
+    width: 33.3333%;
   }
   
   .card:nth-child(n+17):nth-child(-n+20) {
